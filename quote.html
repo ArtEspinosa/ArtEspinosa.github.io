@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Art's Painting</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="arts.css">
+</head>
+
+<body>
+    <nav>
+        <div class="wrapper">
+            <ul>
+                <li><a href="index.html"><img src="ART.png" height="100" width="130" alt="Art's Painting logo"></a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Quote.html">Request a Quote</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="tel:385-777-9877">385-777-9877</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <main>
+            <h1>Request a Quote Today!</h1>
+            <div id="P">
+                <p>We calculate our price by measuring square footage,
+                    as well as counting the<br> amount of doors needed to be painted.
+                    Epoxy pricing is also determined by<br>square footage & labor is included
+                    in both painting and epoxy.
+                </p>
+            </div>
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                <label for="myFName">*First Name:</label>
+                <input type="text" name="myFName" id="myFName" required>
+                <label for="myLName">*Last Name:</label>
+                <input type="text" name="myLName" id="myLName" required>
+                <label for="myEmail">*E-mail:</label>
+                <input type="email" name="myEmail" id="myEmail" required>
+                <label for="myPhone">*Phone Number:</label>
+                <input type="tel" name="myPhone" id="myPhone" maxlength="12" required>
+                <label for="myStartDate">Start Date:</label>
+                <input type="date" name="myStartDate" id="myStartDate">
+                <label for="myprojectinfo">*Project Information</label>
+                <textarea name="myprojectinfo" id="myprojectinfo" rows="4" cols="30"></textarea>
+                <input type="submit">
+            </form>
+            <img id="img" src="Colorcard.jpg" height="400" alt="Color Card">
+        </main>
+        <footer>
+            Copyright &copy; 2022 Art's Painting LLC<br>
+            <a href="mailto:Artspaintingllc.com">
+                Artspaintingllc.com
+            </a>
+        </footer>
+    </div>
+</body>
+
+</html>
